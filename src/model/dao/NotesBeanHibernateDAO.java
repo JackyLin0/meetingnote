@@ -6,8 +6,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
-import misc.HibernateUtil;
 import model.Interface.IDAO;
+import model.misc.HibernateUtil;
 import model.NotesBean;
 import model.UserBean;
 

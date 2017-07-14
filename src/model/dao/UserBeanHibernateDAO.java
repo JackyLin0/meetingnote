@@ -9,9 +9,9 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.sql.ordering.antlr.Factory;
 
-import misc.HibernateUtil;
 import model.UserBean;
 import model.Interface.IDAO;
+import model.misc.HibernateUtil;
 
 public class UserBeanHibernateDAO implements IDAO<UserBean> {
 	public static Session session;

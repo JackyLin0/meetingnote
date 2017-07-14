@@ -1,4 +1,4 @@
-package misc;
+package model.misc;
 import org.hibernate.*;
 import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;

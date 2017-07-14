@@ -7,11 +7,11 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
-import misc.HibernateUtil;
 import model.NotesBean;
 import model.ProcessBean;
 import model.UserBean;
 import model.Interface.IDAO;
+import model.misc.HibernateUtil;
 
 public class ProcessBeanHibernateDAO implements IDAO<ProcessBean> {
 	public static Session session;

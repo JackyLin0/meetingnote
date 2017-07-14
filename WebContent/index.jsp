@@ -2,18 +2,38 @@
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<!-- Jquery mobile import -->
-<link rel="stylesheet"
-	href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script
-	src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-<link type="text/css" rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"/>
-<!-- end of Jquery mobile import  -->
-<link type='text/css' rel="stylesheet" href='css/index.css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+ <script>
+ $( document ).ready(function() {
+ 	});
  
+ </script>
+<link type='text/css' rel="stylesheet" href='css/index.css'>
+<style>
+	#register {
+	position: fixed;
+	top: 500px;
+	left: 30%;
+	width: 450px;
+	background-color: #fff;
+	color: #7F7F7F;
+	padding: 20px;
+	border: 2px solid #ccc;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	-moz-box-shadow: 0 1px 5px #333;
+	-webkit-box-shadow: 0 1px 5px #333;
+	z-index: 101;
+	-webkit-transition: all 3s ease-out;
+	-ms-transition: all 3s ease-out;
+	transition: all 3s ease-out;
+}
+	
+
+
+</style>
 <head>
  
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -21,8 +41,8 @@
 </head>
 <body>
 	<div id='login'>
-		<a href='login.jsp' >登入</a> 
-		<a href='register.jsp'>註冊</a><p>
+		<button id='doLogin'>登入</button>  
+		<a href='register.jsp'>註冊</button><p>
 		<a href='register.jsp' class="button">新增案由</a><p>
 
 	</div>
@@ -109,12 +129,6 @@
 		
 		
 		
-		<!-- register -->
-			<div id='register'>
-				
-			</div>
-		
-		
-		<!-- end of register -->
+		 
 </body>
 </html>
